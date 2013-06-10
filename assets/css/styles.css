@@ -40,6 +40,19 @@ section, footer{
 	display: block;
 }
 
+h1 {
+	color: #666666;
+	font-size: 62px;
+	margin: 0 auto;
+	padding: 4px;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.header {
+	/*background: #000;*/
+}
+
 
 /*----------------------------
 	Main Section
@@ -53,6 +66,16 @@ section, footer{
 	text-align: center;
 	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 	width: 400px;
+}
+
+.note{
+	color: #666666;
+	font-size: 18px;
+	margin: 0 auto;
+	padding: 4px;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+	width: 600px;
 }
 
 
