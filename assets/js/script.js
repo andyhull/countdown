@@ -20,13 +20,13 @@ $(function(){
 			message += days + " day" + ( days==1 ? '':'s' ) + ", ";
 			message += hours + " hour" + ( hours==1 ? '':'s' ) + ", ";
 			message += minutes + " minute" + ( minutes==1 ? '':'s' ) + " and ";
-			message += seconds + " second" + ( seconds==1 ? '':'s' ) + " <br />";
+			// message += seconds + " second" + ( seconds==1 ? '':'s' ) + " <br />";
 			
 			if(newYear){
 				message += "left until the beach";
 			}
 			else {
-				message += "we are at the beach";
+				message += "we are at the beach!!";
 			}
 			
 			note.html(message);
